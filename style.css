@@ -225,3 +225,23 @@ html{
 .label{
     font-size: 20px;
 }
+
+.admin-body {
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+    background-color:  rgb(241, 241, 245); /* Màu nền với độ mờ 0.75 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 300px;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: center;
+}
+
+.cat-input{
+    height: 30px;
+    margin-top: 16px;
+    padding: 0 5px;
+}
