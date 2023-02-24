@@ -8,61 +8,46 @@
     <title>Netflix</title>
 </head>
 <body>
-    <div class="container">
-
-        <div class="header">
-            <a href="/">Hi!</a>
-        </div>
-
-        <div class="body">
-            <!-- Form Login -->
-            <div class="form-container">
-                <div class="form-header">
-                    <h4>
-                       Login
-                    </h4>
-                </div>
-
-                <div class="form">
-                    <input type="text" class="form-input" placeholder="Email or phone number">
-                    <input type="password" class="form-input" placeholder="Password">
-                    <button class="form-button">Sign In</button>
-
-                    <div class="form-help">
-                        <div class="form-rememberMe">
-                            <input type="checkbox" class="remberMe-cbx" id="checkbox_id">
-                            <label class="remember-lbl" for="checkbox_id">Remember me</label>
+    <form action="" method="post">
+        <div class="container">
+            <div class="body">
+                <!-- Form Login -->
+                <div class="form-container">
+                    <div class="form-header">
+                        <h4>Login</h4>
+                    </div>
+                    <div class="form">
+                        <input type="text" class="form-input" placeholder="Email or phone number" required>
+                        <input type="password" class="form-input" placeholder="Password" required>
+                        <button class="form-button">Sign In</button>
+                        <div class="form-help">
+                            <div class="">
+                                <input type="checkbox" class="checkbox" id="checkbox_id">
+                                <label class="remember-lbl" for="checkbox_id">Remember me</label>
+                            </div>
+                            <a class="help-link" href="/">Need help?</a>
                         </div>
-                        <a class="help-link" href="/">Need help?</a>
                     </div>
-                </div>
-
-                <div class="form-other">
-                    <a href="/" class="fb">
-                        <img class="fb-icon"
-                            src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"
-                            alt="">
-                        <span class="fb-text">Login with Facebook</span>
-                    </a>
-
-                    <div class="form-signupnow">
-                        Don't have an account?
-                        <a href="/" class="form-signupnow-link">Sign up now.</a>
-                    </div>
-
-                    <div class="term">
-                        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
-                        <a href="">Learn more.</a>
+                    <div class="form-other">
+                        <a href="/" class="fb">
+                            <img class="fb-icon"
+                                src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"
+                                alt="">
+                            <span class="fb-text">Login with Facebook</span>
+                        </a>
+                        <div class="form-signupnow">
+                            Don't have an account?
+                            <a href="../UI/signup.html" class="form-signupnow-link">Sign up now.</a>
+                        </div>
+                        <div class="term">
+                            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+                            <a href="">Learn more.</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="overlay"></div>
         </div>
-
-        <div class="overlay">
-        </div>
-
-        <div class="footer">
-        </div>
-    </div>
+    </form>
 </body>
 </html>
