@@ -114,6 +114,7 @@ html{
     font-size: 1.3rem;
     display: flex;
     justify-content: space-between; /* giúp sắp xếp các phần tử nằm bên trong theo chiều dọc hoặc chiều ngang */
+    margin: 20px 0 5px;
 }
 
 /**** Css cho checkbox ****/
