@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33f10b6e3c.js" crossorigin="anonymous"></script>
     <title>Posting</title>
 </head>
 <body>
     <form action="">
-        <div class="container">
-            <div class="post-header">
+        <div class="stf-header">
+            <ul>
+                <li><a href="../UI/login.html"><i class="fa-solid fa-right-to-bracket"></i> Logout</a></li>
+            </ul>
+        </div>
+        <div class="stf-container">
+            <div class="nav-bar">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="../UI/view_posts.html"><i class="fa-solid fa-list"></i> View Posts</a></li>
+                    <li class="active"><a href=""><i class="fa-solid fa-pen-to-square"></i> Create a Post</a></li>
+                </ul>
+            </div>
+            <div class="crt-post-container">
                 <label class="label" for="post">Create a post!</label>
                 <div>
                     <textarea id="post" name="post" class="post" rows="5" cols="80"></textarea>
