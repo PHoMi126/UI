@@ -220,13 +220,17 @@ html{
     padding: 0 5px;
 }
 
-.stf-header{
+ul{
     list-style-type: none;
+}
+
+.stf-header{
     float: right;
     margin: 0;
     padding: 0;
     font-size: large;
     background-color: #0071eb;
+    list-style: outside none none;
 }
 
 .stf-header li a{
@@ -237,7 +241,6 @@ html{
 }
 
 .nav-bar{
-    list-style-type: none;
     margin: 0;
     padding: 0;
     float: left;
@@ -288,4 +291,24 @@ html{
 .post-button:hover {
     background-color: #4CAF50;
     color: white;
+}
+
+/* body {
+    background-image: url('../UI/images/c57.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% auto;
+} */
+
+.text {
+    background-color: #000;
+    opacity: 0.5;
+    padding: 10px 16px;
+    font-family: Arial;
+    font-size: 2vh;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
